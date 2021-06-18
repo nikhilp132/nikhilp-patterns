@@ -29,3 +29,15 @@ var row = 5,
 // }
 
 //pattern 2 end
+
+
+//pattern 3
+
+// for (var i = 1; i <= row; i++) {
+//   for (var j = 1; j <= i; j++) {
+//     document.write(j + " ");
+//   }
+//   document.write('<br/>');
+// }
+
+//pattern 3 end
