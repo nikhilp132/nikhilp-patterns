@@ -44,10 +44,14 @@ var row = 5,
 
 
 //pattern 4
-
+var row = 2;
 for (var i = 1; i <= row; i++) {
-  for (var j = 1; j <=i; j++) {
-    document.write('*' + " ");
+  for (var j = 1; j <=row+i-1; j++) {
+    if(j < row-j){
+      document.write("#");
+    }else{
+      document.write('*' + " ");
+    }
   }
   document.write('<br/>');
 }
