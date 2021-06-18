@@ -46,7 +46,7 @@ var row = 5,
 //pattern 4
 
 for (var i = 1; i <= row; i++) {
-  for (var j = row; j >=i; j--) {
+  for (var j = 1; j >=i; j++) {
     document.write('*' + " ");
   }
   document.write('<br/>');
