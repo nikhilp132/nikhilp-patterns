@@ -33,11 +33,23 @@ var row = 5,
 
 //pattern 3
 
-for (var i = 1; i <= row; i++) {
-  for (var j = row; j >=1; j--) {
-    document.write('*' + " ");
-  }
-  document.write('<br/>');
-}
+// for (var i = 1; i <= row; i++) {
+//   for (var j = row; j >=i; j--) {
+//     document.write('*' + " ");
+//   }
+//   document.write('<br/>');
+// }
+
+//pattern 3 end
+
+
+//pattern 3
+
+// for (var i = 1; i <= row; i++) {
+//   for (var j = row; j >=i; j--) {
+//     document.write('*' + " ");
+//   }
+//   document.write('<br/>');
+// }
 
 //pattern 3 end
