@@ -46,7 +46,7 @@ var n = 5,
       if(j <= n-i){
         document.write('&nbsp; ');
       }else{
-        document.write('* ');
+        document.write('*');
       }
     }
     document.write('<br/> ')
