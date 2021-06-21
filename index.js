@@ -41,11 +41,11 @@ var n = 5,
 
 //pattern 4
 
-for(var i = n; i >= 1; i--){
-  for(var j = 1; j <= n; j++){
+// for(var i = n; i >= 1; i--){
+//   for(var j = 1; j <= n; j++){
     
-  }
-}
+//   }
+// }
 
 //pattern 4 end
 
