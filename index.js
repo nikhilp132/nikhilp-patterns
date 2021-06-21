@@ -67,7 +67,7 @@ var n = 5,
 for(var i = 1; i <= n; i++){
   for(var j = 1; j <= 2*n-1; j++){
     if(j > n-i && j < n + i){
-      document.write(j+'&nbsp;');
+      document.write(n+'&nbsp;');
     }else{
       document.write('&nbsp;&nbsp;&nbsp;');
     }
