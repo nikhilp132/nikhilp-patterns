@@ -41,13 +41,9 @@ var n = 5,
 
 //pattern 4
 
-for(var i = 1; i <= n; i++){
-  for(var j = 1; j <= 2*n-1; j++){
-    if(j == i){
-    document.write('*');
-    }else{
-      document.write('<br/>')
-    }
+for(var i = n; i >= 1; i--){
+  for(var j = 1; j <= n; j++){
+    
   }
 }
 
