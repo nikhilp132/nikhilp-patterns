@@ -64,16 +64,16 @@ var n = 5,
 
 //pattern 5
 
-// for(var i = 1; i <= n; i++){
-//   for(var j = 1; j <= 2*n-1; j++){
-//     if(j > n-i && j < n + i){
-//       document.write('*&nbsp;');
-//     }else{
-//       document.write('&nbsp;&nbsp;&nbsp;');
-//     }
-//   }
-//   document.write('<br/> ');
-// }
+for(var i = 1; i <= n; i++){
+  for(var j = 1; j <= 2*n-1; j++){
+    if(j > n-i && j < n + i){
+      document.write(j+'&nbsp;');
+    }else{
+      document.write('&nbsp;&nbsp;&nbsp;');
+    }
+  }
+  document.write('<br/> ');
+}
 
 //pattern 5 end
 
