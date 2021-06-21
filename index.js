@@ -41,16 +41,16 @@ var n = 5,
 
   //pattern 4
 
-  // for(var i = 1; i <= n; i++){
-  //   for(var j = 1; j <= 2*n-1; j++){
-  //     if(j < n-i){
-  //       document.write('&nbsp;');
-  //     }else{
-  //       document.write('* ');
-  //     }
-  //   }
-  //   document.write('<br/>')
-  // }
+  for(var i = 1; i <= n; i++){
+    for(var j = 1; j <= n; j++){
+      if(j <= n-i){
+        document.write('&nbsp; ');
+      }else{
+        document.write('* ');
+      }
+    }
+    document.write('<br/> ')
+  }
 
   //pattern 4 end
 
