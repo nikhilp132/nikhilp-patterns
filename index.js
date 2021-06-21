@@ -51,14 +51,14 @@ var n = 5,
 
   // pattern;
 
-  n = 4;
-var number = 1;
-for (var i = 1; i <= n; i++) {
-  for (var j = 1; j <= i; j++) {
-    document.write(number + ' ');
-    number++;
-  }
-  document.write('<br/>');
-}
+//   n = 4;
+// var number = 1;
+// for (var i = 1; i <= n; i++) {
+//   for (var j = 1; j <= i; j++) {
+//     document.write(number + ' ');
+//     number++;
+//   }
+//   document.write('<br/>');
+// }
 
 // pattern
