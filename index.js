@@ -72,7 +72,7 @@ for(var i = 1; i <= n; i++){
       document.write('&nbsp;&nbsp;&nbsp;');
     }
   }
-  document.write('<br/> ');
+  document.write('<br/>');
 }
 
 //pattern 5 end
