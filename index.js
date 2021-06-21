@@ -5,10 +5,10 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
-var row = 5,
+var n = 5,
 //pattern 1
 
-// for (var i = 1; i <= row; i++) {
+// for (var i = 1; i <= n; i++) {
 //   for (var j = 1; j <= i; j++) {
 //     document.write('* ');
 //   }
@@ -19,7 +19,7 @@ var row = 5,
 
 //pattern 2
 
-// for (var i = 1; i <= row; i++) {
+// for (var i = 1; i <= n; i++) {
 //   for (var j = 1; j <= i; j++) {
 //     document.write(j + " ");
 //   }
@@ -30,8 +30,8 @@ var row = 5,
 
 //pattern 3
 
-// for (var i = 1; i <= row; i++) {
-//   for (var j = row; j >=i; j--) {
+// for (var i = 1; i <= n; i++) {
+//   for (var j = n; j >=i; j--) {
 //     document.write('*' + " ");
 //   }
 //   document.write('<br/>');
@@ -41,25 +41,24 @@ var row = 5,
 
 //pattern 4
 
-// for (var i = 1; i <= row; i++) {
-//   for (var j = 1; j <=row+i-1; j++) {
-//     if(j < row-j){
-//       document.write("#");
-//     }else{
-//       document.write('*' + " ");
-//     }
-//   }
-//   document.write('<br/>');
-// }
+for(var i = 1; i <= n; i++){
+  for(var j = 1; j <= 2*n-1; j++){
+    if(j == i){
+    document.write('*');
+    }else{
+      document.write('<br/>')
+    }
+  }
+}
 
 //pattern 4 end
 
   
 //pattern
 
-//   row = 4;
+//   n = 4;
 // var number = 1;
-// for (var i = 1; i <= row; i++) {
+// for (var i = 1; i <= n; i++) {
 //   for (var j = 1; j <= i; j++) {
 //     document.write(number + ' ');
 //     number++;
