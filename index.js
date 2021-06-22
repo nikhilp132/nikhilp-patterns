@@ -65,12 +65,14 @@ var n = 5,
 //pattern 5
 
 for(var i = 1; i <= n; i++){
-  for(var j = 1; j <= 2*n-1; j++){
-    if(j > n-i && j < n + i){
-      document.write(n+'&nbsp;');
-    }else{
-      document.write('&nbsp;&nbsp;&nbsp;');
-    }
+  for(var j = 1; j <= n-i; j++){
+    document.write('&nbsp;&nbsp;&nbsp;');
+  }
+  for(var k = 1; k <=i ; k++){
+    document.write(k+(n-j)+'&nbsp;');
+  }
+  for(var m = 1; m <i ; m++){
+    document.write(m+'&nbsp;');
   }
   document.write('<br/>');
 }
